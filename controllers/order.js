@@ -61,7 +61,7 @@ export const createOrder = async (req, res) => {
     // Prepare email details
     const mailOptions = {
       from: process.env.BUSINESS_EMAIL, // Sender address
-      to: process.env.BUSINESS_EMAIL, // Recipient address (your email)
+      to: "adrenixorder@gmail.com", // Recipient address (your email)
       subject: 'New Order Created', // Subject of the email
       text: `New order details:\n\nUser: ${userName}\nProducts: ${JSON.stringify(products)}\nAddress: ${address}\nPayment Method: ${paymentMethod}\nTotal Amount: $${totalAmount}`, // Body of the email
     };
