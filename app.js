@@ -17,7 +17,7 @@ app.use(cookieParser());
 
 // Cors Setup for Frontend 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://www.adrenix.in/",
     credentials: true, // Allows cookies to be sent with requests
 }));
 

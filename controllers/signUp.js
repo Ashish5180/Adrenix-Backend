@@ -6,7 +6,7 @@ dotenv.config();
 
 
 const JWT_SECRET = process.env.JWT_SECRET; // Replace with a strong secret key
-const SALT_ROUNDS = process.env.SALT_ROUNDS; // Number of salt rounds for bcrypt
+const SALT_ROUNDS = 10; // Number of salt rounds for bcrypt
 
 
 
